@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <title>상품</title>
+    <style>
+     h1{
+        padding: 10px;
+        background-color: black;
+        color:#fff;
+        text-align: center;
+     }
+     .li{
+        font-weight: 900;
+        font-style: italic;
+     }
+     .a{
+        color: blue;
+     }
+     .accent{
+        color:red;
+     }
+    </style>
+</head>
+<body>
+    <h1>하루일과</h1>
+    <p>2023년<span class="accent"> 1월 7일</span><span class="a"> 날씨 맑음<span></p>
+    <p>오늘은 <span class="li">즐거운 하루</span>였다</p>
+</body>   
+</html>
