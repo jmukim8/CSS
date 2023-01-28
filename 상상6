@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <title>곰돌이</title>
+    <style>
+        #round1{
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        #round2{
+            border-top-left-radius: 120px;
+            border-top-right-radius: 120px;
+            border-bottom-left-radius: 120px;
+            border-bottom-right-radius: 120px;
+        }
+        #circle {border-radius:50%;}
+    </style>
+</head>
+<body>
+    <img id="round1" src="http://jhbum.pe.kr/web/7w/images/bear.jpg ">
+    <img id="round2" src="http://jhbum.pe.kr/web/7w/images/bear.jpg ">
+    <img id="circle" src="http://jhbum.pe.kr/web/7w/images/bear.jpg ">
+</body>   
+</html>
