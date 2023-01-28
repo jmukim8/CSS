@@ -16,10 +16,10 @@
             margin-left: 20px;
         }
         .box2{ 
-            border: 5px solid black;
-            border-right: 10px solid blue;
-            border-bottom: 20px solid red;
-            border-left: 30px solid yellow;
+            border: 10px solid black;
+            border-right: 20px solid blue;
+            border-bottom: 30px solid red;
+            border-left: 40px solid yellow;
             padding-top: 80px;
             padding-left: 50px;
             margin-top: 40px;
@@ -27,8 +27,8 @@
         }
 
         img{
-            width: 110px;
-            height: 110px;
+            width: 100px;
+            height: 100px;
         }
     </style>
 </head>
