@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="Ko">
+<head>
+    <meta charset="UTF-8">
+    <title>표</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+        }
+        .color1{
+            background-color: rgb(192, 226, 43);
+        }
+        th{
+            background-color: rgb(221, 141, 43);
+        }
+        .color2{
+            background-color: rgb(43, 86, 226);
+        }
+    </style>
+</head>
+<body>
+<caption>상품 관리</caption>
+    <table>
+    <tr>
+        <th>상품</th>
+        <th>위치</th>
+        <th>날짜</th>
+        <th>상태</th>
+        <th>비용</th>
+    </tr>
+    <tr>
+        <td class="color1">바나나</td>
+        <td>매탄</td>
+        <td>01/23</td>
+        <td>보통</td>
+        <td>10,000원</td>
+    </tr>
+    <tr>
+        <td class="color1">감</td>
+        <td>권선</td>
+        <td>01/11</td>
+        <td>좋음</td>
+        <td>20,000원</td>
+    </tr>
+    <tr>
+        <td class="color1">토마토</td>
+        <td>인계</td>
+        <td>01/05</td>
+        <td>아주좋음</td>
+        <td>25,000원</td>
+    </tr>
+    <tr>
+        <td class="color1">딸기</td>
+        <td>아주대</td>
+        <td>01/20</td>
+        <td>아주좋음</td>
+        <td>11,000원</td>
+    </tr>
+    <tr>
+        <td colspan="4">총 합계</td>
+        <td >66,000원</td>
+    </tr>
+    </table>
+</body>   
+</html>
